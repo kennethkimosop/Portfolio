@@ -1,0 +1,238 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #1a1a2e;
+    color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    transition: background-color 0.8s ease;
+}
+
+body:hover {
+    background-color: #162447;
+}
+
+/* Container Animation */
+.container {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    animation: expand 4s forwards;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(to right, #333, #444);
+    color: #d1e70d;
+    text-align: center;
+    padding: 2rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.8s ease;
+}
+
+nav ul li a:hover {
+    background-color: #12ee30;
+    border-radius: 5px;
+}
+
+.hero .right img{
+    width: 200px;
+    height: 200px;
+    margin: right;
+}
+/* Main Content Styling */
+main {
+    padding: 2rem;
+    background-color: #1f4068;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 20px;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #eaeaea;
+}
+
+main p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #a8a8a8;
+}
+
+h3 {
+    justify-content: center;
+    display: flex;
+    margin: 2rem auto;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    padding: 5rem;
+    background-color: #1f4068;
+    max-width: 800px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #2314f3;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    main {
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
+
+/* Animations for Dots and Boxes */
+.dot, .box {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #12ee30;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+body h4, body h5 {
+    justify-content: center;
+    display: flex;
+}
+
+div:nth-child(odd) {
+    animation: up 1.5s linear alternate-reverse infinite;
+}
+
+div:nth-child(even) {
+    animation: down 1.5s linear alternate-reverse infinite;
+}
+
+@keyframes up {
+    0% {
+        transform: translateY(-500px);
+    }
+    100% {
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(500px);
+    }
+}
+
+.box {
+    height: 10px;
+    width: 10px;
+    background-color: #eed812;
+}
+
+@keyframes up {
+    0% {
+        transform: translateX(-500px);
+        background-color: #2314f3;
+    }
+    100% {
+        transform: translateX(-100px);
+        background-color: aqua;
+    }
+}
+
+@keyframes down {
+    0% {
+        transform: translateX(100px);
+        background-color: #12ee30;
+    }
+    100% {
+        transform: translateX(500px);
+        background-color: blueviolet;
+    }
+}
