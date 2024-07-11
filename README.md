@@ -20,32 +20,32 @@ CSS3
 JavaScript
 
 **Installation**
-To run this project locally, follow these steps:
+To run this website locally, follow these steps:
 
 **Clone the repository:**
 bash
 **Copy code**
 
-git clone https://github.com/yourusername/portfolio-website.git
+_git clone https://github.com/yourusername/portfolio-website.git_
 
 Navigate to the project directory:
 
 bash
 Copy code
 
-cd portfolio-website
+_cd portfolio-website_
 
 Install dependencies:
 bash
 
 **Copy code**
-npm install
+_npm install_
 
 **Start the development server:**
-bash
+_bash_
 
 **Copy code**
-npm start
+_npm start_
 Usage
 You can visit the live website at Your Portfolio URL.
 
