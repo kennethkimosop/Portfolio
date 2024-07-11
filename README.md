@@ -1,11 +1,10 @@
 
-Creating a professional and engaging README for your portfolio website on GitHub can significantly impact how visitors perceive your work.
-Here is a well-structured and informative README template inspired by some of the best formats used by individuals and projects on GitHub:
 
 Welcome to my personal portfolio website! This repository contains the source code for my portfolio, showcasing my projects, skills, and experience. 
-**About**
+**About** \n
 This portfolio website is a comprehensive showcase of my work, skills, and experience. 
-
+Access my website at **https://kenneth-kim.onrender.com/_**
+\n
 
 **Features**
 
@@ -13,12 +12,12 @@ This portfolio website is a comprehensive showcase of my work, skills, and exper
 **Interactive Animations**: Engaging visual effects to enhance user experience.
 **Project Showcase**: Detailed descriptions and links to my projects.
 **Contact Form**: Easy way for visitors to get in touch with me.
-
+\n
 **Programming languages Used**
 HTML5
 CSS3
 JavaScript
-
+\n
 **Installation**
 To run this website locally, follow these steps:
 
@@ -27,17 +26,18 @@ bash
 **Copy code**
 
 _git clone https://github.com/yourusername/portfolio-website.git_
-
+\n
 Navigate to the project directory:
 
 bash
+\n
 Copy code
 
 _cd portfolio-website_
 
 Install dependencies:
 bash
-
+\n
 **Copy code**
 _npm install_
 
