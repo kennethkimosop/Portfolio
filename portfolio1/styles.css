@@ -1,0 +1,247 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #050506;
+    color: #ccc;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav-logo {
+    max-width: 100px;
+    border-radius: 30%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.link a {
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+}
+
+.btn {
+    background-color: #1d4ed8;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+.btn:hover {
+    background-color: #a0d522;
+}
+
+/* Header */
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 4rem 2rem;
+}
+
+header .content h1 span {
+    color: #1d4ed8;
+}
+
+header .image img {
+    width: 300px;
+    border-radius: 50%;    
+    border: 2px solid-transparent;
+    
+}
+
+/* Section Styles */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 4rem 2rem;
+}
+
+.header {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.certs{    
+    border-radius: 5px;
+    padding: 0.75rem 2rem;    
+    background-color: #1d4ed8;
+    margin-top: 10px;    
+} 
+.certs:hover{
+    background-color: rgb(22, 223, 46);
+    transition: all 0.3s ease;
+    transform: scale(1.2);
+}
+
+.sub-header {
+    color: #ccc;
+    font-size: 1.25rem;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.card {
+    background-color: #27272a;
+    padding: 0.5rem;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    
+    color: #fff;   
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+}
+.card:hover{
+   
+    transform: all 0.3s ease;
+    border-color: #fff;
+}
+.crop{
+    
+
+}
+
+.crop{    
+    border-radius: 2px;      
+    background-color: #1d4ed8;
+    margin-top: 10px;    
+} 
+.crop:hover{
+    background-color: rgb(22, 223, 46);
+    transition: all 0.3s ease;
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    padding: 2rem 0;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.column {
+    flex: 1;
+}
+
+.socials {
+    margin-top: 1rem;
+}
+
+.social-icon {
+    margin-right: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.social-icon:hover {
+    color: #1d4ed8;
+}
+
+/* Copyright */
+copyright {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #000;
+    color: #fff;
+}
+#chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.chatbot-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.chatbot-button:hover {
+    background-color: #45a049;
+}
+
+.chatbot-form {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    position: absolute;
+    bottom: 70px;
+    right: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.chatbot-form h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.chatbot-form ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.chatbot-form ul li {
+    margin-bottom: 10px;
+}
+
+.chatbot-form ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.chatbot-form ul li a i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.chatbot-form ul li a:hover {
+    color: #4CAF50;
+}
