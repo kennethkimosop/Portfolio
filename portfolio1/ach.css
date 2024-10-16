@@ -1,0 +1,28 @@
+/* Certifications Section */
+
+.certifications-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+}
+
+.certifications-grid .card {
+    background-color: #27272a;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    flex: 1 1 calc(33% - 2rem);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.certifications-grid .card h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.certifications-grid .card p {
+    margin-bottom: 0.5rem;
+}

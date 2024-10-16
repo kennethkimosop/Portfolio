@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(38, 38, 87);
+}
+
+.right img{
+    width: 1000px;
+    height: 500px;
+    border-radius: 50px;
+}
+.right .about .button {
+    color:beige;
+    padding: 20%;
+    margin: 50px;
+    transform: none;
+    justify-content: center;
+    display: flex;
+}
+p .h1{
+    color: beige;
+    background-color: black;
+    padding: 20px;
+    margin: 20px;
+}

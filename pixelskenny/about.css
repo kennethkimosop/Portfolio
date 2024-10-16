@@ -1,0 +1,51 @@
+*{
+    background-color: black;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.container .bubbles h1 {
+    color: rgb(8, 249, 32);
+}
+.bubbles{
+    position: absolute;
+    display: flex;
+}
+
+.bubbles span{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: #0bf636;    
+    margin: 0 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #4fc3dc44,
+    0 0 50px yellow,
+    0 0 100px green;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(120s / var(--i)); 
+}
+
+.bubbles span:nth-child(odd){
+    background: greenyellow;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px orange,
+    0 0 100px #f80505;
+
+}
+@keyframes animate
+{ 
+    0%    
+    {
+        transform: translateY(100vh) scale(0);
+    }
+    100%
+    {
+        transform: translateX(-10vh) scale(1);
+
+    }
+}
+
