@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <title>Kenneth Kimosop | Portfolio</title>
+</head>
+<body>
+    <!-- Navigation Bar with a Dark Mode Toggle -->
+    <nav>
+        <h1>Kenneth Kimosop</h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="projects.html">More Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="dark-mode-toggle">🌙</button>
+    </nav>
+
+    <!-- Hero Section with Parallax Scrolling and 3D Hover Effect -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Hi, I’m Kenneth Kimosop</h2>
+            <p>Telecom Engineer. Developer. Innovator.</p>
+            <a href="#about" class="main-button">Explore My Work</a>
+        </div>
+        <div class="hero-visual">
+            <img src="path/to/your-image.jpg" alt="Kenneth in action" class="tilt-effect">
+        </div>
+    </section>
+
+    <!-- About Section with Interactive Skill Bars -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m a tech enthusiast skilled in networking, IoT, and software development. I aim to make an impact in the digital world with my work.</p>
+        <div class="skills">
+            <h3>Skills</h3>
+            <div class="skill-bar">
+                <span>Python</span>
+                <div class="bar"><div class="fill" style="width: 85%"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>Networking (CCNA)</span>
+                <div class="bar"><div class="fill" style="width: 90%"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>IoT Development</span>
+                <div class="bar"><div class="fill" style="width: 80%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section with Horizontal Scroll and Hover Effects -->
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-carousel">
+            <div class="project-card tilt-effect">
+                <img src="path/to/image1.jpg" alt="Project 1">
+                <h3>IoT Smart Home System</h3>
+                <p>Control home devices remotely using NodeMCU and Google Firebase.</p>
+            </div>
+            <div class="project-card tilt-effect">
+                <img src="path/to/image2.jpg" alt="Project 2">
+                <h3>Data Analysis with Netflix</h3>
+                <p>Analyzed Netflix trends and visualized data insights.</p>
+            </div>
+            <div class="project-card tilt-effect">
+                <img src="path/to/image3.jpg" alt="Project 3">
+                <h3>Portfolio Website</h3>
+                <p>Responsive portfolio website to showcase my work.</p>
+            </div>
+        </div>
+        <a href="projects.html" class="view-more">View More Projects</a>
+    </section>
+
+    <!-- Contact Section with a Real-time Visitor Counter -->
+    <footer id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch through social media or send me a message below.</p>
+        <div class="visitor-counter">
+            <p>Currently <span id="visitorCount">5</span> visitors are viewing this page.</p>
+        </div>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </footer>
+    
+    
+
+    <!-- Scripts for animations, dark mode toggle, visitor counter -->
+    <script src="script.js"></script>
+</body>
+</html>
